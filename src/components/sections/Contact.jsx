@@ -59,6 +59,14 @@ export default function Contact() {
                 value={brand.phone}
                 href={`https://wa.me/${brand.whatsapp}`}
               />
+              <a
+  href="https://paypal.me/DiegoRamirez648"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn-primary inline-flex items-center justify-center"
+>
+  💳 Pagar con PayPal
+</a>
               <ContactItem icon={MapPin} label="Ubicación" value={brand.location} />
             </div>
           </div>
